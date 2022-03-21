@@ -3,7 +3,7 @@ import { Button, Modal } from 'react-bootstrap';
 
 const ReactModal = (props) => {
 //    console.log(props.productatiq);
-   const {category, image,price, description,title} =props.productatiq;
+   const {category, image, description,title} =props.productatiq;
     const [show, setShow] = useState(false);
 
     const handleClose = () => setShow(false);

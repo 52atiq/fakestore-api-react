@@ -5,7 +5,10 @@ const SIngleProduct = (props) => {
     console.log(props.productatiq);
     const {setCartCount} =props;
     return (
-        <div  data-aos="flip-left"  className='col-md-4'>
+        <div 
+        data-aos="fade-up"
+       
+          className='col-md-4'>
             <div className="card p-3 border">
                 <img className='w-50 m-auto' src={props.productatiq.image} alt="" />
             <h1>{props.productatiq.title.slice(0,10)}</h1>
